@@ -675,7 +675,7 @@ What does the script generally need to do?
   8. thickEnd;
   9. itemRgb; Based on the alteration variety, we should set the color based on the sort of alteration. 
 
-  Critical question, can I have multiple alterations at the same location, in the same bed file, on separate lines? Let's try and plug this in beore... Works without issue! So I should really just write them out into multiple rows, this way, we see multiple alterations stacking as well and it visually represents alterations in multiple patients as well. 
+  Critical question, can I have multiple alterations at the same location, in the same bed file, on separate lines? Let's try and plug this in before... Works without issue! So I should really just write them out into multiple rows, this way, we see multiple alterations stacking as well and it visually represents alterations in multiple patients as well. 
   A record from each file is going to follow this format and look like below, 
   #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	BS_B391ZQY7
   chr1	1477855	pbsv.INS.DUP.0	G	<DUP>	.	PASS	SVTYPE=DUP;END=1477983;SVLEN=128	GT:AD:DP	1/1:10,43:53
@@ -705,3 +705,9 @@ Happy New Year! At the end of last year I wrote a python program that would conc
 To create the session, I uploaded the BED files to custom tracks in the UCSC genome browser and then saved the session, which allowed for me to create a shareable link. 
 
 With the visualization mostly complete, Soheil wants to again turn attention to looking into the isoforms. I left off with this using PIGEON to try and classify the transcripts and needed the barcodes from library prep to clean the reads up. Matthew Seetin from P.B. has provided them to us. 
+
+--------
+1/5/2023
+--------
+
+Created a git repo and pushed it to the Meshinchi lab github with a working example in the wiki pages. 
